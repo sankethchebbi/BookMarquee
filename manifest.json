@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Bookmark Search",
+    "version": "1.0",
+    "description": "Search bookmarks in Firefox",
+    "permissions": ["bookmarks","contextMenus"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  
